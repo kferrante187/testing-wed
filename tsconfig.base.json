@@ -20,7 +20,8 @@
     "paths": {
       "@adt/learning": ["libs/learning/src/index.ts"],
       "@adt/shared": ["libs/shared/src/index.ts"],
-      "@adt/tools": ["libs/tools/src/index.ts"]
+      "@adt/tools": ["libs/tools/src/index.ts"],
+      "@adt/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": [

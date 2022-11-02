@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Result } from '@adt/shared';
+import { ButtoneGroupItem } from '@adt/ui';
 @Component({
   selector: 'adt-root',
   templateUrl: './app.component.html',
@@ -8,4 +9,11 @@ import { Result } from '@adt/shared';
 export class AppComponent {
   title = 'frontend';
   thing!: Result<string>;
+
+  buttonToShow: ButtoneGroupItem[] = [
+    {
+      label: 'Taco',
+      value: 'taco',
+    },
+  ];
 }

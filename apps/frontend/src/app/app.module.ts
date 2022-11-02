@@ -7,6 +7,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
+import { UiModule } from '@adt/ui';
 const routes: Routes = [
   {
     path: 'tools',
@@ -20,6 +21,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    UiModule,
     RouterModule.forRoot(routes),
     StoreModule.forRoot({}),
     StoreDevtoolsModule.instrument(),

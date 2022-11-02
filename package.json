@@ -38,6 +38,7 @@
     "@angular/cli": "~14.2.0",
     "@angular/compiler-cli": "~14.2.0",
     "@angular/language-service": "~14.2.0",
+    "@ngneat/spectator": "^12.0.1",
     "@nrwl/cli": "15.0.4",
     "@nrwl/cypress": "15.0.4",
     "@nrwl/eslint-plugin-nx": "15.0.4",
